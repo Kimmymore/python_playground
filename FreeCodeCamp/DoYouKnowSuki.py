@@ -11,7 +11,7 @@ while True:
             print("Ah, that's", older, "years older than Suki!")
         if older == 0:
             print("Ah, that's the same age as Suki!")
-        if older < 0: 
+        if older < 0:
             older = older * -1
             print("Ah, that's", older, "years younger than Suki!")
         break
@@ -21,17 +21,12 @@ while True:
 
 # Know Suki
 while True:
-    Know = input("Do you know Suki? ")
-    if Know == "Yes":
+    know = input("Do you know Suki? ")
+    know = know.lower()
+    if know == "yes":
         print("That's great! Suki is the cutest cat in the world!")
         break
-    if Know == "yes":
-        print("That's great! Suki is the cutest cat in the world!")
-        break
-    if Know == "No":
-        print("You should meet her! She's the cutest cat in the world!")
-        break
-    if Know == "no":  
+    if know == "no":
         print("You should meet her! She's the cutest cat in the world!")
         break
     else:
