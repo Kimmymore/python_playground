@@ -1,13 +1,13 @@
 class DogBreed:
-  def __init__(self, name, description, temperament, origin):
+  def __init__(self, name, size, temperament, origin):
     self.name = name
-    self.description = description
+    self.size = size
     self.temperament = temperament
     self.origin = origin
 
   def get_info(self):
     info = f"Name: {self.name}\n"
-    info += f"Description: {self.description}\n"
+    info += f"Description: {self.size}\n"
     info += f"Temperament: {self.temperament}\n"
     info += f"Origin: {self.origin}\n"
     return info
