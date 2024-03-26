@@ -32,6 +32,20 @@ toy_poodle = DogBreed("Toy Poodle", "Small", "Intelligent, Alert, Active", "Fran
 
 
 # Example usage
+print(australian_shepherd.get_info())
+print(beagle.get_info())
+print(boxer.get_info())
+print(bulldog.get_info())
+print(chihuahua.get_info())
+print(dachshund.get_info()
 print(golden_retriever.get_info())
-print(german_shepherd.get_info())
+print(great_dane.get_info())
+print(king_charles_spaniel.get_info())
+print(labradoodle.get_info())
 print(labrador_retriever.get_info())
+print(pembroke_welsh_corgi.get_info())
+print(pomeranian.get_info())
+print(shih_tzu.get_info())
+print(siberian_husky.get_info())
+print(toy_poodle.get_info())
+```
